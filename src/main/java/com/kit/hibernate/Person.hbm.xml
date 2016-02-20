@@ -1,0 +1,9 @@
+<hibernate-mapping package="com.kit.hibernate">
+    <class name="Person" table="T_PERSON">
+        <id name="id" column="ID">
+            <generator class="native"/>
+        </id>
+        <property name="firstName" column="FIRST_NAME"/>
+        <property name="lastName" column="LAST_NAME"/>
+    </class>
+</hibernate-mapping>
